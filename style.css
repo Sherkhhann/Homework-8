@@ -3,12 +3,12 @@
 }
 .main{
     padding: 20px;
+    display: flex;
 }
 .mainconteiner{
     padding: 20px 40px;
     width: 450px;
-    box-shadow: 1px 1px 10px black;
-
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.334);
 }
 .conteiner1{
     position: relative;
@@ -66,4 +66,81 @@
 .conn1{
     width: 450px;
     padding: 20px 5px;
+}
+.right{
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.492);
+    margin-left: 20px;
+    height: 570px;
+}
+.right h4{
+    color: #666;
+}
+.ri1 h1{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.ri1 h4{
+    font-size: 15px;
+    padding-top: 15px;
+    color: #666;
+}
+.ri1 p{
+    padding: 5px 0px;
+    line-height: 27px;
+}
+.ri1{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+}
+.ri11 {
+    /*height: 150px;*/
+}
+.ri11 {
+    font-size: 15px;
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+}
+.ri12{
+    padding: 30px 0px;
+}
+.ri11 p, .ri12 p{
+    padding: 5px 0px;
+    line-height: 27px;
+}
+span{
+    color: #009688;
+}
+.bu{
+    color: white;
+    background-color: #009688;
+    border-radius: 2px;
+    padding: 1px 5px;
+}
+.footer{
+    height: 100px;
+    background-color: #009688;
+    padding: 20px 0px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.footer i{
+    color: white;
+    padding: 15px 4px;
+}
+.ic1, .ic2, .ic3, .ic4, .skill, .lan, .work, .edu{
+    display: flex;
+}
+.right i{
+    padding: 17px 8px;
+    font-size: 25px;
+}
+i{
+    padding: 8px 0px;
+    padding-right: 8px
+}
+i{
+    color: #009688;
 }
